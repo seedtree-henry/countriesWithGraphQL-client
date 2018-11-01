@@ -11,7 +11,7 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact={true} path={"/"} component={Home} />
-            <Route path={"/details/:countryId"} component={Detail} />
+            <Route path={"/details/:alpha3Code"} component={Detail} />
           </Switch>
         </Router>
         <div className="app" />
